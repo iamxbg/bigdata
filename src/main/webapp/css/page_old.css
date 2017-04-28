@@ -1,0 +1,184 @@
+/*
+	defines
+*/
+/*
+@freshQuery-border:1px solid #0080ff;
+*/
+.d_page {
+  width: 100%;
+  background: none;
+  padding: 2px;
+  margin-top: 14px;
+}
+.d_page ul {
+  list-style: none;
+}
+.d_page ul li {
+  float: left;
+}
+.d_page .d_paramBox {
+  border: 1px solid #cdcdcf;
+  background: none;
+  margin: 1px 1px;
+  float: left;
+  padding: 4px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+.d_page .d_paramBox .freshQuery {
+  float: left;
+  margin-left: 3px;
+  margin-top: 4px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #D85042;
+  height: 28px;
+  line-height: 28px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+}
+.d_page .d_paramBox .freshQuery span {
+  cursor: pointer;
+}
+.d_page .d_paramBox .downloadExcel {
+  float: left;
+  margin-top: 4px;
+  margin-left: 4px;
+  border: none;
+}
+.d_page .d_paramBox .downloadExcel span {
+  cursor: pointer;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam {
+  margin: 2px 16px 2px 6px;
+  background: none;
+  padding: 2px;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam span {
+  background: none;
+  float: left;
+  margin-right: 2px;
+  color: #161616;
+  margin-top: 3px;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam input.date {
+  text-indent: 3px;
+  width: 100px;
+  margin-right: 3px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #AAAAAA;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam input.time {
+  text-indent: 3px;
+  width: 50px;
+  margin-right: 3px;
+  height: 26px;
+  border-radius: 5px;
+  border: 1px solid #AAAAAA;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam input {
+  border: 1px solid #aaaaaa;
+  width: 100px;
+  background: none;
+  float: left;
+  height: 26px;
+  border-radius: 5px;
+  text-indent: 3px;
+}
+.d_page .d_paramBox ul.d_queryParams li.d_queryParam select {
+  border: 1px solid lime;
+  float: left;
+}
+.d_page .d_pageResult {
+  background: #fcfcfc;
+  overflow: auto;
+  border:1px solid lightgray;
+}
+.d_page .d_pageResult table {
+  float: left;
+  width: 100%;
+  background: #fcfcfc;
+}
+.d_page .d_pageResult table tbody {
+  border: none;
+  background: #ffffff;
+  margin-top: 2px;
+}
+.d_page .d_pageResult table tbody tr {
+  border: none;
+}
+.d_page .d_pageResult table tbody tr td {
+  font-size: 14px;
+  border: 1px solid lightgray;
+  line-height: 22px;
+}
+.d_page .d_pageResult table.table-expandable thead th {
+  background: #D85042;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  text-align: center;
+}
+.d_page .d_pageResult table.table-expandable tbody td li {
+  width: 100%;
+}
+.d_page .d_pageResult table.table-expandable tbody td li strong {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+  text-align: left;
+  text-decoration: underline;
+  width: 100px;
+}
+.d_page .d_pageResult table.table-expandable tbody td li p {
+  margin-left: 120px;
+}
+.d_page .d_pageChooser {
+  float: left;
+  margin-top: 8px;
+  border: none;
+  background: none;
+}
+.d_page .d_pageChooser ul.d_pageBtns {
+  border: none;
+  background: none;
+  float: left;
+}
+.d_page .d_pageChooser ul.d_pageBtns li.d_pageBtn {
+  border: 1px solid #a0a0a2;
+  background: none;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 5px;
+  padding: 0 5px;
+  margin-right: 10px;
+}
+.d_page .d_pageChooser ul.d_pageBtns li.d_pageBtn span {
+  padding: 2px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #DA5043;
+  font-size: 14px;
+}
+.d_page .d_pageChooser ul.d_pageInfos {
+  border: none;
+  background: none;
+  float: left;
+  margin-left: 42px;
+  height: 26px;
+  line-height: 26px;
+}
+.d_page .d_pageChooser ul.d_pageInfos li.d_pageInfo {
+  border: none;
+  background: none;
+}
+.d_page .d_pageChooser ul.d_pageInfos li.d_pageInfo span {
+  padding: 2px;
+  border: none;
+  background: none;
+}
+.d_page .d_pageChooser ul.d_pageInfos li.d_pageInfo .d_recordCount {
+  margin-left: 40px;
+}

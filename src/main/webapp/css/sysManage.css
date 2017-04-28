@@ -1,0 +1,364 @@
+/*
+
+	sysManage.less
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#header {
+  width: 100%;
+  height: 50px;
+  background: skyblue;
+}
+#header #sysPic {
+  width: 15%;
+  float: left;
+  background: gray;
+  height: inherit;
+}
+#footer {
+  width: 100%;
+  height: 50px;
+  background: skyblue;
+}
+#middle {
+  height: 600px;
+}
+#middle #rightFrame {
+  height: 600px;
+  margin-top: 2px;
+  border: 1px solid red;
+  float: left;
+  width: 85%;
+}
+#middle #rightFrame .pageBox {
+  width: 98%;
+  margin-left: 1%;
+  background: skyblue;
+}
+#middle #rightFrame .pageBox .queryParams {
+  border: 1px solid blue;
+  padding: 4px;
+  height: 40px;
+}
+#middle #rightFrame .pageBox .queryParams .goQuery {
+  cursor: pointer;
+}
+#middle #rightFrame .pageBox .queryParams ul {
+  list-style: none;
+}
+#middle #rightFrame .pageBox .queryParams ul li {
+  float: left;
+  border: 1px solid red;
+  margin-right: 5px;
+}
+#middle #rightFrame .pageBox .queryResult {
+  border: 1px solid red;
+}
+#middle #rightFrame .pageBox .queryResult table {
+  width: 100%;
+}
+#middle #rightFrame .pageBox .queryResult table thead {
+  border: 1px 1px solid black;
+  height: 30px;
+  text-indent: 1em;
+}
+#middle #rightFrame .pageBox .queryResult table tbody tr {
+  border: 1px solid black;
+  line-height: 40px;
+  text-indent: 1em;
+}
+#middle #rightFrame .pageBox .queryResult table tbody tr span.editBtn {
+  border: 1px solid red;
+  padding: 2px 2px 2px 6px;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+#middle #rightFrame .pageBox .pageBar {
+  border: 1px solid lime;
+}
+#middle #rightFrame .moduleBaseInfo span {
+  float: left;
+  margin-right: 10px;
+  margin-left: 60px;
+  border: 1px solid red;
+  padding: 2px 6px;
+}
+#middle #rightFrame #editPageQueryBox ul li .fieldStatus {
+  border: 1px solid red;
+  padding: 2px;
+  margin-right: 10px;
+}
+#middle #rightFrame #editPageQueryBox ul li .fieldName {
+  width: 19%;
+  border: 1px solid red;
+  text-indent: 1em;
+}
+#middle #rightFrame #editPageQueryBox ul li span {
+  float: left;
+}
+#middle #rightFrame #editPageQueryBox ul li input {
+  float: left;
+}
+#middle #rightFrame #editPageQueryBox ul li select {
+  float: left;
+}
+#middle #rightFrame #editChartPlotBox ul {
+  list-style: none;
+}
+#middle #rightFrame .subModule .dropSetting {
+  display: inline;
+  width: 24px;
+  height: 24px;
+  border: 1px solid red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#middle #rightFrame .subModule .addSetting {
+  display: inline;
+  width: 24px;
+  height: 24px;
+  border: 1px solid red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#middle #rightFrame .subModule .tablebox {
+  border: 1px solid red;
+  width: 100%;
+  height: 400px;
+}
+#middle #rightFrame .subModule .tablebox table {
+  border: 1px solid lime;
+  width: 100%;
+}
+#middle #rightFrame .subModule .tablebox table tr {
+  border: 1px solid red;
+}
+#middle #rightFrame .subModule .tablebox table tr td {
+  border: 1px solid blue;
+  text-indent: 1em;
+}
+#middle #rightFrame .subModule .tablebox table tr td span.edit {
+  border: 1px solid red;
+  padding: 2px;
+}
+#middle #rightFrame .subModule .tablebox .pagebar {
+  border: 1px solid lime;
+  background: skyblue;
+  height: 30px;
+}
+#middle #rightFrame .subModule .tablebox .pagebar ul {
+  list-style: none;
+}
+#middle #rightFrame .subModule .tablebox .pagebar ul li {
+  float: left;
+  margin-left: 5px;
+  border: 1px solid red;
+}
+#middle #rightFrame .subModule .tablebox .pagebar ul li span {
+  line-height: 26px;
+  padding: 1px 3px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+#middle #rightFrame .subModule #chooseBox {
+  float: left;
+  width: 20%;
+  height: 200px;
+  background: skyblue;
+  margin-left: 70px;
+  overflow: auto;
+}
+#middle #rightFrame .subModule #chooseBox li.choose {
+  letter-spacing: 2px;
+}
+#middle #rightFrame .subModule #chooseBox .selected {
+  background: lime;
+}
+#middle #rightFrame .subModule #chooseBtnBox {
+  float: left;
+  width: 7%;
+  height: 80px;
+  background: skyblue;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+#middle #rightFrame .subModule #chooseBtnBox span {
+  border: 1px solid red;
+  letter-spacing: 3px;
+  padding: 2px;
+  margin-left: 7px;
+}
+#middle #rightFrame .subModule #choosedBox {
+  margin-left: 20px;
+  float: left;
+  width: 20%;
+  height: 200px;
+  background: skyblue;
+  overflow: auto;
+}
+#middle #rightFrame .subModule #choosedBox li.choosed {
+  letter-spacing: 2px;
+}
+#middle #rightFrame .subModule #choosedBox .selected {
+  background: lime;
+}
+#middle #rightFrame .subModule .btn_add {
+  padding: 2px 4px;
+  height: 30px;
+  border: 1px solid red;
+  width: 80%;
+  float: left;
+}
+#middle #rightFrame .subModule .btn_add a :hover {
+  cursor: pointer;
+}
+#middle #rightFrame .subModule .btn_add img {
+  width: 24px;
+  height: 24px;
+  border: 1px solid red;
+  float: left;
+}
+#middle #rightFrame .subModule .btn_add span {
+  padding: 0px 3px;
+  width: 100px;
+  letter-spacing: 3px;
+  border: 1px solid red;
+  line-height: 22px;
+  margin-left: 2px;
+  float: left;
+}
+#middle #rightFrame .subModule .content_add {
+  margin-bottom: 8px;
+  border: 1px solid blue;
+  width: 100%;
+  float: left;
+}
+#middle #rightFrame .subModule .content_add ul {
+  list-style: none;
+}
+#middle #rightFrame .subModule .content_add ul li {
+  border: 1px solid lime;
+  margin-top: 1px;
+  width: 100%;
+  padding: 4px;
+  float: left;
+}
+#middle #rightFrame .subModule .content_add ul li span.label_1 {
+  width: 100px;
+  float: none;
+  margin-left: 70px;
+  border: 1px solid red;
+  letter-spacing: 8px;
+  float: left;
+  margin-right: 20px;
+}
+#middle #rightFrame .subModule .content_add ul li input {
+  float: left;
+}
+#middle #rightFrame #tabs {
+  width: 100%;
+  height: 36px;
+  border: 1px solid green;
+  padding: 2px 3px;
+  float: left;
+  overflow: hidden;
+}
+#middle #rightFrame #tabs ul {
+  list-style: none;
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 0px;
+}
+#middle #rightFrame #tabs ul li {
+  border: 1px solid red;
+  padding: 2px 3px;
+  margin: 1px;
+  float: left;
+  width: 180px;
+}
+#middle #rightFrame #tabs ul li a :hover {
+  cursor: pointer;
+}
+#middle #rightFrame #tabs ul li a img {
+  border: 1px solid red;
+  width: 24px;
+  height: 24px;
+  margin-left: 0px;
+  float: left;
+}
+#middle #rightFrame #tabs ul li a span {
+  border: 1px solid red;
+  margin-left: 3px;
+  height: 24px;
+  float: left;
+  padding: 0px 3px;
+  letter-spacing: 2px;
+  width: 140px;
+}
+#middle #rightFrame #content {
+  background: #d0d0d0;
+  overflow: scroll;
+  width: 100%;
+  border: 1px solid blue;
+  float: left;
+  height: 560px;
+}
+#middle #rightFrame #content #emptyContentTop {
+  width: 100%;
+  height: 10px;
+  background: white;
+  float: left;
+}
+#middle #rightFrame #content #emptyContentTrue {
+  width: 100%;
+  border: 1px solid blue;
+  background: white;
+  float: left;
+}
+#middle #rightFrame #content #emptyContentBottom {
+  width: 100%;
+  height: 10px;
+  background: white;
+  float: left;
+}
+#middle #leftNav {
+  height: inherit;
+  background: lightgray;
+  width: 15%;
+  float: left;
+  overflow-y: scroll;
+}
+#middle #leftNav ul {
+  background: lightgray;
+  list-style: none;
+}
+#middle #leftNav ul li {
+  background: #BEBEBE;
+  margin-bottom: 2px;
+  border: 1px solid red;
+  padding: 6px 0px;
+  float: left;
+  width: 100%;
+}
+#middle #leftNav ul li a :hover {
+  cursor: pointer;
+}
+#middle #leftNav ul li a img {
+  border: 1px solid red;
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  float: left;
+}
+#middle #leftNav ul li a span {
+  border: 1px solid red;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  width: 60%;
+  float: left;
+  height: 32px;
+  line-height: 30px;
+  padding: 0px 4px;
+}

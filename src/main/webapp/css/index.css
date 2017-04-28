@@ -1,0 +1,36 @@
+div {
+  margin: 0px;
+  padding: 0px;
+}
+div#header {
+  background: #000000;
+  height: 60px;
+}
+div#middle {
+  background: lightgray;
+  padding: 10px 0px;
+}
+div#middle #middleAreaDecorator {
+  border: 1px solid blue;
+  height: 500px;
+}
+div#middle #signIn {
+  border: 1px solid blue;
+  height: 350px;
+  background: #ddddff;
+  margin: 10px 0px 0px 0px;
+}
+div#middle #signIn #username {
+  width: 90%;
+  height: 34px;
+  margin: 10px 0px 0px 25px;
+}
+div#middle #signIn #password {
+  width: 90%;
+  height: 34px;
+  margin: 10px 0px 0px 25px;
+}
+div#footer {
+  background: #000000;
+  height: 50px;
+}

@@ -1,0 +1,70 @@
+// Declaring variables
+@header-background:black;
+@header-height:60px;
+
+
+
+@middle-height:500px;
+@middle-padding:10px 0px;
+
+	@signIn-background:#DDF;
+	@signIn-margin:10px 0px 0px 0px;
+		
+			@input-width:90%;
+			@input-height:34px;
+			@input-margin:10px 0px 0px 25px;
+
+@footer-height:50px;
+@footer-background:black;
+
+
+
+div{
+	margin:0px;
+  	padding:0px;
+}
+// Using variables
+
+div#header {
+    
+  background:@header-background;
+  height:@header-height;
+
+} 
+
+div#middle{
+	background:lightgray;
+  	padding:@middle-padding;
+  	
+  #middleAreaDecorator{
+  	border:1px solid blue;
+    height:@middle-height;
+  }
+  
+  #signIn{
+  	border:1px solid blue;
+    height:@middle-height*0.7;
+    background:@signIn-background;
+    margin:@signIn-margin;
+    
+    #username{
+    	width:@input-width;
+      	height:@input-height;
+      	margin:@input-margin;
+    }
+    #password{
+    	width:@input-width;
+      	height:@input-height;
+      	margin:@input-margin;
+    }
+    
+  }
+  	
+}
+
+
+
+div#footer{
+	background:@footer-background;
+  	height:@footer-height;
+}
